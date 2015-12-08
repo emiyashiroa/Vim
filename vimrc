@@ -39,9 +39,9 @@ if has("win32")
 endif
 
 "Python 2.7
-let $PATH .= ';' . $VIM . '\portables\Python27'
-let $PYTHONPATH = $VIM . '\portables\Python27\Lib'
-let $PYTHONPATH .= ';' . $VIM . '\portables\Python27\DLLs'
+let $PATH .= ';' . $VIM . '\Python27'
+let $PYTHONPATH = $VIM . '\Python27\Lib'
+let $PYTHONPATH .= ';' . $VIM . '\Python27\DLLs'
 
 "Pymode
 let g:pymode_rope = 0
