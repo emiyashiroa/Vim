@@ -2,6 +2,8 @@ set encoding=utf-8
 set fileencoding=utf-8
 scriptencoding utf-8
 
+set cryptmethod=blowfish
+
 syntax on
 colorscheme murphy
 set number
