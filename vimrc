@@ -37,7 +37,7 @@ nnoremap \ ,
 
 if has("win32")
     set backspace=indent,eol,start
-    "set directory=$TEMP
+    set directory=$TEMP
 endif
 
 "Python 2.7
