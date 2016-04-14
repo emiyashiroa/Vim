@@ -25,7 +25,10 @@ set wildmode=longest,list
 
 filetype plugin indent on
 
-execute pathogen#infect()
+try
+    execute pathogen#infect()
+catch
+endtry
 
 let mapleader=","
 nnoremap <leader>v :e $MYVIMRC<CR>
